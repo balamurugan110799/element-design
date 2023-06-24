@@ -37,6 +37,7 @@ module.exports = {
       'ash-blue': '#2f3e4f',
       'grey-logo': '#909090',
       'grey': '#cdcdcd',
+      'white':'#fff',
     },
     borderRadius: {
       'none': '0',

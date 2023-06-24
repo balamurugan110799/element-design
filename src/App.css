@@ -1,0 +1,22 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./components/Assets/Font/Merriweather/Merriweather-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: mySecondFont;
+    src: url(./components/Assets/Font/Bakbak_One/BakbakOne-Regular.ttf);
+  }
+  *{
+    font-family: myFirstFont;
+  }
+  .heading{
+    font-family: mySecondFont;
+  }
+
+  .border{
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+
+  
