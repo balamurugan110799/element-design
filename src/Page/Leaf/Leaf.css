@@ -1,0 +1,43 @@
+.background{
+    margin:0px;
+     background:#b8e986;
+   }
+   .background{
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     height:100vh;
+   }
+   .leaf-head{
+     display:flex;
+      position:relative;
+   }
+   .leaves{
+     width:100px;
+     height:100px;
+     background:#056500;
+     border-radius:250px 0px;
+     transform: rotate(-45deg);
+     margin:0px 0px 0px 0px;
+   }
+   .left-leaf{
+     width:100px;
+     height:100px;
+     background:#2caa00;
+     border-radius:250px 0px;
+     transform: rotate(-90deg);
+     position:absolute;
+     top:20%;
+     left:-50%;
+   }
+    .left-right{
+     width:100px;
+     height:100px;
+     background:#003800;
+     border-radius:250px 0px;
+     transform: rotate(45deg);
+     position:absolute;
+     top:50%;
+     z-index: -1;
+     left:20%;
+   }
