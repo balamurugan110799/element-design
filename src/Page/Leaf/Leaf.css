@@ -1,43 +1,105 @@
-.background{
-    margin:0px;
-     background:#b8e986;
-   }
-   .background{
-     display:flex;
-     justify-content:center;
-     align-items:center;
-     height:100vh;
-   }
-   .leaf-head{
-     display:flex;
-      position:relative;
-   }
-   .leaves{
-     width:100px;
-     height:100px;
-     background:#056500;
-     border-radius:250px 0px;
-     transform: rotate(-45deg);
-     margin:0px 0px 0px 0px;
-   }
-   .left-leaf{
-     width:100px;
-     height:100px;
-     background:#2caa00;
-     border-radius:250px 0px;
-     transform: rotate(-90deg);
-     position:absolute;
-     top:20%;
-     left:-50%;
-   }
-    .left-right{
-     width:100px;
-     height:100px;
-     background:#003800;
-     border-radius:250px 0px;
-     transform: rotate(45deg);
-     position:absolute;
-     top:50%;
-     z-index: -1;
-     left:20%;
-   }
+.background-green {
+
+  background: #b8e986;
+}
+
+.backround-winter {
+  background-color: #cccfff;
+}
+
+.background-spring {
+  background-color: #53cb40;
+}
+
+.background-autumn {
+  background-color: #d6a75b;
+}
+
+.background {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.leaf-head {
+  display: flex;
+  position: relative;
+}
+
+
+
+.summer-left-leaf {
+  background: #2caa00;
+}
+
+.winter-left-leaf {
+  background: #999fff
+}
+
+.spring-left-leaf {
+  background: #009900;
+}
+.autumn-left-leaf {
+  background: #bc862f;
+}
+
+.summer-leaves {
+  background: #006900;
+}
+.winter-leaves{
+  background: #525dff;
+}
+
+.spring-leaves{
+  background:  #003c00;
+}
+.autumn-leaves{
+  background:  #885900;
+}
+.leaves {
+  width: 100px;
+  height: 100px;
+  border-radius: 250px 0px;
+  transform: rotate(-45deg);
+  margin: 0px 0px 0px 0px;
+}
+
+
+.left-leaf {
+  width: 100px;
+  height: 100px;
+  border-radius: 250px 0px;
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 20%;
+  left: -50%;
+}
+
+.summer-right-leaf {
+  background: #003800;
+}
+
+.winter-right-leaf {
+  background: #000f98;
+}
+
+.spring-right-leaf {
+  background: #004200;
+}
+
+.autumn-right-leaf {
+  background: #573000;
+}
+
+.right-leaf {
+  width: 100px;
+  height: 100px;
+  border-radius: 250px 0px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+  left: 20%;
+}

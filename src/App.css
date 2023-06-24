@@ -19,4 +19,8 @@
     border: 1px solid #ccc;
   }
 
+  .border-design{
+    border-radius: 50% 20% / 10% 40%;
+  }
+
   
