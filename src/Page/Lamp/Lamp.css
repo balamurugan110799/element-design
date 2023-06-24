@@ -1,0 +1,45 @@
+
+  
+  .background-lamp {
+   display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0px;
+    height: 100vh;
+    background:#464545;
+    position:relative;
+    transition: 0.6s;
+  }
+  .lamp-on-background{
+    background:#ffffff;
+    
+  }
+  .lamp-head{
+  margin-top:0px;
+  }
+
+  .lamp-on{
+	border-bottom: 120px solid #f7bd00;
+  }
+  .lamp-off{
+	border-bottom: 120px solid #969595;
+  }
+  .lamp{
+    transition: 0.6s;
+	border-left: 33px solid transparent;
+	border-right: 28px solid transparent;
+	width: 180px;
+  }
+  .stick-on{
+    background:#3d3e3e;
+  }
+  .stick-off{
+    background:#969595;
+  }
+  .stick{
+    transition: 0.6s;
+    width:10px;
+    height:100px;
+    margin:0px auto;
+  }
+  

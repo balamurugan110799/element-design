@@ -4,6 +4,7 @@ import Leaf from './Page/Leaf/Leaf';
 import Home from './Page/Home';
 import Header from './components/JS/Header';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Lamp from './Page/Lamp/Lamp';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/leaf" element={<Leaf />} />
+          <Route path="/lamp" element={<Lamp />} />
 
           {/* <Route path="/thank-you" element={<ThankYou />} /> */}
 
