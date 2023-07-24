@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import './components/CSS/style.css';
 import Leaf from './Page/Leaf/Leaf';
 import Home from './Page/Home';
-import Header from './components/JS/Header';
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Lamp from './Page/Lamp/Lamp';
 

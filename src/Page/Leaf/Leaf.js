@@ -28,6 +28,7 @@ function Leaf() {
                 </div>
             </div>
 
+
             <div className="absolute bottom-0 w-[100%] px-4">
                 <div className="grid py-4 lg:grid-cols-2 md:grid-cols-1 mdsm:grid-cols-1 sm:grid-cols-1">
                     <div>

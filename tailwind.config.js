@@ -38,6 +38,7 @@ module.exports = {
       'grey-logo': '#909090',
       'grey': '#cdcdcd',
       'white':'#fff',
+      'error':'#b51200',
     },
     borderRadius: {
       'none': '0',
